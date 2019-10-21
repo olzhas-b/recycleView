@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/conteiner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3D6FC75"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:text="Account_name"
+        android:textColor="#ccffff"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/Account_Image"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/like1" />
+
+
+    <TextView
+        android:id="@+id/just_text"
+        android:layout_width="293dp"
+        android:layout_height="67dp"
+        android:text="number of like:"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="290dp"
+        android:layout_height="85dp"
+        android:ems="10"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        />
+
+
+</LinearLayout>
